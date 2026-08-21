@@ -35,31 +35,31 @@ const FAQ = mongoose.models.FAQ || mongoose.model('FAQ', FAQSchema);
 const faqs = [
   {
     question: 'What type of products does Omor Auto Corner offer?',
-    answer: 'Omor Auto Corner specializes in high-quality smart home security and display solutions. We offer premium IP cameras, professional CC camera setups (dome and bullet), smart LED TVs, and home cinema projectors.',
+    answer: 'Omor Auto Corner specializes in premium motorcycle parts and accessories. We offer authentic engine oils, safety gear like DOT/ECE certified helmets and gloves, high-grip tyres, modification items like LED fog lights, and genuine spare parts.',
     order: 1,
     isActive: true,
   },
   {
-    question: 'Do your security cameras and projectors come with a warranty?',
-    answer: 'Yes! All our electronic products—including IP cameras, LED TVs, and smart projectors—come with a 1-year to 3-year official manufacturer warranty. Detailed warranty information is listed on each product\'s page.',
+    question: 'Are your helmets and engine oils 100% authentic?',
+    answer: 'Yes, absolutely! We guarantee that all our products, including MT/Axor helmets and Motul/Shell engine oils, are 100% genuine and sourced directly from authorized distributors.',
     order: 2,
     isActive: true,
   },
   {
     question: 'What are the shipping charges and delivery times?',
-    answer: 'Delivery within Dhaka takes 24 to 48 hours with a shipping fee of 60 BDT. For locations outside Dhaka, shipping is 120 BDT and delivery takes 2 to 4 business days.',
+    answer: 'Delivery within Dhaka takes 24 to 48 hours with a shipping fee of 60 BDT. For locations outside Dhaka, shipping is 120 BDT and delivery takes 2 to 4 business days via our courier partners.',
     order: 3,
     isActive: true,
   },
   {
-    question: 'Do you provide installation services for CC camera security packages?',
-    answer: 'Yes, we offer professional installation support for dome and bullet CC camera systems in Dhaka and select major cities. Please contact our support team at +8801819273596 for custom site inspection and pricing.',
+    question: 'Do you offer installation or fitting services for accessories?',
+    answer: 'Currently, we operate as an online retail store and do not provide direct installation services. However, any local motorcycle mechanic can easily install our accessories and spare parts.',
     order: 4,
     isActive: true,
   },
   {
-    question: 'Can I track my order status in real time?',
-    answer: 'Absolutely! Once your order is processed, you will receive a tracking ID. You can enter this ID on our Track Order page to check its live location and shipping status.',
+    question: 'What is your return and exchange policy?',
+    answer: 'We accept returns within 3 days of delivery if the product is defective, damaged during transit, or if you received the wrong item. Please ensure the product is unused and in its original packaging.',
     order: 5,
     isActive: true,
   }

@@ -35,24 +35,29 @@ const Category = mongoose.models.Category || mongoose.model('Category', Category
 
 const categoryHierarchy = [
   {
-    name: 'IP Camera',
-    slug: 'ip-camera',
-    image: '/assets/images/cagetory/cat-ip-camera.webp',
+    name: 'Engine Oil & Lubricants',
+    slug: 'engine-oil',
+    image: '/assets/images/cagetory/engine-oil.webp',
   },
   {
-    name: 'LED TV',
-    slug: 'led-tv',
-    image: '/assets/images/cagetory/cat-led-tv.webp',
+    name: 'Helmets & Safety Gear',
+    slug: 'helmets-gear',
+    image: '/assets/images/cagetory/helmets-gear.webp',
   },
   {
-    name: 'Projector',
-    slug: 'projector',
-    image: '/assets/images/cagetory/cat-projector.webp',
+    name: 'Tyres & Tubes',
+    slug: 'tyres-tubes',
+    image: '/assets/images/cagetory/tyres-tubes.webp',
   },
   {
-    name: 'CC Camera',
-    slug: 'cc-camera',
-    image: '/assets/images/cagetory/cat-cc-camera.webp',
+    name: 'Modification & Accessories',
+    slug: 'modification-accessories',
+    image: '/assets/images/cagetory/modification-accessories.webp',
+  },
+  {
+    name: 'Spare Parts',
+    slug: 'spare-parts',
+    image: '/assets/images/cagetory/spare-parts.webp',
   }
 ];
 

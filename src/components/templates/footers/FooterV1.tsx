@@ -123,7 +123,7 @@ export default function FooterV1() {
           <div className="flex flex-col items-center text-center md:items-start md:text-left gap-4 lg:col-span-2">
             <Logo textClassName="text-xl md:text-2xl whitespace-nowrap" />
             <p className="text-sm text-muted-foreground w-full md:w-4/5">
-              Your ultimate destination for premium IP cameras, smart LED TVs, high-definition projectors, and professional CC camera security systems.
+              Your ultimate destination for premium motorcycle parts, safety gear, high-grip tyres, engine oils, and professional riding accessories.
             </p>
 
             {/* PWA Download App Button */}

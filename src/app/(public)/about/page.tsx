@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 
 export const metadata: Metadata = {
   title: 'About Us | Omor Auto Corner',
-  description: 'Omor Auto Corner - Premium electronics and security store in Bangladesh. Explore our high-quality collection of IP cameras, smart LED TVs, high-definition projectors, and professional CC camera systems.',
+  description: 'Omor Auto Corner - Premium motorcycle parts and accessories store in Bangladesh. Explore our high-quality collection of DOT/ECE certified helmets, genuine engine oils, high-grip tyres, and modification parts.',
 };
 
 async function getSettings() {
@@ -42,13 +42,13 @@ export default async function AboutPage() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.1),rgba(255,255,255,0))]" />
         <div className="container mx-auto px-4 text-center relative z-10">
           <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-primary/10 text-primary mb-4">
-            <Sparkles className="h-3 w-3" /> Premium Electronics & Smart Security
+            <Sparkles className="h-3 w-3" /> Premium Motorcycle Parts & Accessories
           </span>
           <h1 className="text-4xl md:text-6xl font-black tracking-tight text-foreground mb-6">
             About <span className="text-primary">Us</span>
           </h1>
           <p className="text-muted-foreground text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
-            Driven by a passion for smart security, high-definition entertainment, and premium display solutions, <strong className="text-primary">{brandName}</strong> delivers top-tier technology designed to protect your home and elevate your viewing experiences.
+            Driven by a passion for motorcycling, safety, and performance, <strong className="text-primary">{brandName}</strong> delivers top-tier parts and accessories designed to protect riders and elevate your riding experiences.
           </p>
         </div>
       </section>
@@ -83,13 +83,13 @@ export default async function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground">
-                Connecting Smart Security and Premium Entertainment
+                Connecting Riders with Premium Parts & Accessories
               </h2>
               <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
-                At Omor Auto Corner, we believe that modern surveillance and entertainment systems should be high-quality, accessible, and user-friendly. We curate the finest products—whether you require a smart IP camera for wireless home security, full-featured CC camera packages for commercial monitoring, premium LED TVs, or immersive home theater projectors.
+                At Omor Auto Corner, we believe that motorcycle maintenance and safety should be high-quality, accessible, and user-friendly. We curate the finest products—whether you require a DOT-certified helmet for daily commuting, genuine synthetic engine oil, high-grip racing tyres, or custom modification accessories.
               </p>
               <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
-                All security gear and display electronics are sourced directly from authorized global manufacturers and tested thoroughly by our systems specialists before setup.
+                All safety gear and motorcycle parts are sourced directly from authorized global manufacturers and tested thoroughly before being delivered to our riders.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
@@ -99,7 +99,7 @@ export default async function AboutPage() {
                   </div>
                   <div>
                     <h4 className="font-bold text-sm mb-1">Our Mission</h4>
-                    <p className="text-xs text-muted-foreground">To provide premium surveillance cameras and display technologies that safeguard homes and enhance digital media experiences with peak efficiency.</p>
+                    <p className="text-xs text-muted-foreground">To provide premium safety gear and performance parts that safeguard riders and enhance motorcycling experiences with peak efficiency.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -108,7 +108,7 @@ export default async function AboutPage() {
                   </div>
                   <div>
                     <h4 className="font-bold text-sm mb-1">Our Vision</h4>
-                    <p className="text-xs text-muted-foreground">To be Bangladesh\'s most trusted provider of advanced security cameras and visual display systems, celebrated for warranty authenticity and long-term tech support.</p>
+                    <p className="text-xs text-muted-foreground">To be Bangladesh's most trusted provider of advanced motorcycle parts and safety gear, celebrated for product authenticity and long-term rider support.</p>
                   </div>
                 </div>
               </div>
@@ -127,7 +127,7 @@ export default async function AboutPage() {
                     Our Slogan
                   </span>
                   <blockquote className="text-lg md:text-xl font-bold leading-relaxed italic">
-                    "Secure your peace of mind and elevate your home theater entertainment."
+                    "Secure your ride and elevate your motorcycling experience."
                   </blockquote>
                   <p className="text-xs text-slate-300 font-medium">
                     — The {brandName} Team
@@ -164,9 +164,9 @@ export default async function AboutPage() {
               <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                 <Laptop className="h-6 w-6" />
               </div>
-              <h3 className="text-xl font-bold">Expert Security Setup</h3>
+              <h3 className="text-xl font-bold">Expert Recommendations</h3>
               <p className="text-muted-foreground text-xs leading-relaxed max-w-[280px]">
-                Our certified technicians can design and deploy customized multi-channel camera layouts tailored to your exact security requirements.
+                Our experienced team can recommend the perfect accessories and parts tailored exactly to your motorcycle and riding style.
               </p>
             </div>
 
@@ -215,7 +215,7 @@ export default async function AboutPage() {
             Upgrade Your Setup with Omor Auto Corner
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto text-sm">
-            Browse our premium collection of IP cameras, smart TVs, projectors, and security gear today.
+            Browse our premium collection of DOT/ECE helmets, genuine engine oils, tyres, and modification gear today.
           </p>
           <div className="flex flex-wrap gap-4 justify-center pt-4">
             <Link href="/shop" passHref>
